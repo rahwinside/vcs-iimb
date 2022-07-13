@@ -17,7 +17,7 @@ SET gogspath=C:\gogs
 
 nssm install gogs "%gogspath%\gogs.exe"
 nssm set gogs AppParameters "web"
-nssm set gogs Description "Blockchain-enabled Version Control System v0.1."
+nssm set gogs Description "Version Control System v0.1."
 nssm set gogs DisplayName "Gogs"
 nssm set gogs Start SERVICE_DELAYED_AUTO_START
 nssm set gogs AppStdout "%gogspath%\gogs.log"

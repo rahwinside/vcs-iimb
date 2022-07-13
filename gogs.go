@@ -25,7 +25,7 @@ func init() {
 func main() {
 	app := cli.NewApp()
 	app.Name = "Gogs"
-	app.Usage = "Blockchain-enabled Version Control System v0.1"
+	app.Usage = "Version Control System v0.1"
 	app.Version = conf.App.Version
 	app.Commands = []cli.Command{
 		cmd.Web,
