@@ -9,7 +9,7 @@ WORKDIR /gogs.io/gogs
 COPY . .
 
 RUN ./docker/build/install-task.sh
-RUN TAGS="cert pam" task build`
+RUN TAGS="cert pam" task build
 
 FROM alpine:3.14
 RUN apk --no-cache --no-progress add \
