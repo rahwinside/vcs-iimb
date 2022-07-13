@@ -22,4 +22,4 @@
 
 ## ⚖️ License
 
-This project is under the MIT License. See the [LICENSE](https://github.com/gogs/gogs/blob/main/LICENSE) file for the full license text.
+This project is under the MIT License.
